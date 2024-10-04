@@ -33,13 +33,16 @@ You can clone the repository to inspect and modify the codebase or datasets.
 
 2.1. Clone via command line:
 git clone https://github.com/ShashankS1011/AIAlchemists.git
+
 (Or) 
+
 2.2. download the repository directly as a ZIP file and extract it.
 
 3. Datasets Used
 The app leverages two datasets:
 
 3.1. indian-cities-dataset.csv: Contains information on various Indian cities, used for geolocation and distance calculations.
+
 3.2. Inventory.xlsx: Holds inventory details, including materials, quantities, and prices from different suppliers.
 These datasets are used in the optimization process to provide real-time insights and recommendations.
 
@@ -47,6 +50,7 @@ These datasets are used in the optimization process to provide real-time insight
 The following algorithms have been implemented to power the optimization logic:
 
 4.1. RankingPrice.ipynb: This algorithm ranks suppliers based on material price, availability, and buyer preferences.
+
 4.2. ShortestPath.ipynb: This algorithm calculates the optimal path for suppliers to deliver materials, minimizing time and cost.
 You can run these notebooks using Jupyter Notebook or Google Colab for a deeper understanding of the optimization techniques used in the app.
 
