@@ -18,4 +18,45 @@ Suppliers input material details, price, quantity, and location.
 Buyers provide material requirements and location preferences.
 The app processes this data to give the most efficient options for both parties.
 
-##Clone
+How to Use the Application
+1. Download and Install the APK (Android)
+Download the APK file from the repository: Project_oneAPI_hack_kpr.apk.
+Install the APK on your Android device by allowing installation from unknown sources (if prompted).
+Open the app and follow the user prompts:
+
+1.1. Suppliers: Enter material details, quantity, price, and location.
+1.2. Buyers: Enter location, required material, and quantity.
+The app will provide optimal delivery paths for suppliers and optimal material recommendations for buyers based on price and availability.
+
+Clone the Repository (for Developers)
+You can clone the repository to inspect and modify the codebase or datasets.
+
+Clone via command line:
+git clone https://github.com/ShashankS1011/AIAlchemists.git
+
+Or download the repository directly as a ZIP file and extract it.
+
+3. Datasets Used
+The app leverages two datasets:
+
+3.1. indian-cities-dataset.csv: Contains information on various Indian cities, used for geolocation and distance calculations.
+3.2. Inventory.xlsx: Holds inventory details, including materials, quantities, and prices from different suppliers.
+These datasets are used in the optimization process to provide real-time insights and recommendations.
+
+4. Algorithms
+The following algorithms have been implemented to power the optimization logic:
+
+4.1. RankingPrice.ipynb: This algorithm ranks suppliers based on material price, availability, and buyer preferences.
+4.2. ShortestPath.ipynb: This algorithm calculates the optimal path for suppliers to deliver materials, minimizing time and cost.
+You can run these notebooks using Jupyter Notebook or Google Colab for a deeper understanding of the optimization techniques used in the app.
+
+5. Running the Project Locally
+If you want to modify or test the project locally:
+
+Ensure you have Python and the required dependencies installed. You can install the dependencies by running:
+pip install -r requirements.txt
+
+Open the provided Jupyter notebooks to explore the algorithms:
+RankingPrice.ipynb
+ShortestPath.ipynb
+
