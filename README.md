@@ -28,13 +28,13 @@ Open the app and follow the user prompts:
 1.2. Buyers: Enter location, required material, and quantity.
 The app will provide optimal delivery paths for suppliers and optimal material recommendations for buyers based on price and availability.
 
-Clone the Repository (for Developers)
+2. Clone the Repository (for Developers)
 You can clone the repository to inspect and modify the codebase or datasets.
 
-Clone via command line:
+2.1. Clone via command line:
 git clone https://github.com/ShashankS1011/AIAlchemists.git
-
-Or download the repository directly as a ZIP file and extract it.
+(Or) 
+2.2. download the repository directly as a ZIP file and extract it.
 
 3. Datasets Used
 The app leverages two datasets:
