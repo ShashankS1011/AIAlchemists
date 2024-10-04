@@ -25,7 +25,9 @@ Install the APK on your Android device by allowing installation from unknown sou
 Open the app and follow the user prompts:
 
 1.1. Suppliers: Enter material details, quantity, price, and location.
+
 1.2. Buyers: Enter location, required material, and quantity.
+
 The app will provide optimal delivery paths for suppliers and optimal material recommendations for buyers based on price and availability.
 
 2. Clone the Repository (for Developers)
